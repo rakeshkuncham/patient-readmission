@@ -1,0 +1,28 @@
+﻿### Python Environment & Dependencies ###
+venv/
+__pycache__/
+.env
+*.pyc
+
+### Machine Learning Artifacts ###
+model.joblib
+*.pkl
+*.h5
+*.onnx
+
+### IDE/OS Files ###
+.vscode/
+.DS_Store
+*.swp
+*~
+
+### Data, Logging, and Temporary Files ###
+# We explicitly track files inside 'data/', but ignore the generated output folder
+data/processed/
+*.log
+nohup.out
+
+### React UI Dependencies and Build Artifacts ###
+# Directories within 'patient-readmission-ui/' that should be ignored
+patient-readmission-ui/node_modules/
+patient-readmission-ui/build/
