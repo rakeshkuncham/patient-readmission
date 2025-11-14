@@ -52,4 +52,9 @@ data/processed/
 
 >>>>>>> cea5997 (CHORE: Optimized .gitignore rules)
 patient-readmission-ui/node_modules/
+<<<<<<< HEAD
 patient-readmission-ui/build/
+=======
+patient-readmission-ui/build/"venv/" 
+"venv/" 
+>>>>>>> e2fefbf (Remove venv and clean history)
