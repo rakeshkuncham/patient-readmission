@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿### Python Environment & Dependencies ###
 venv/
 __pycache__/
@@ -24,5 +25,31 @@ nohup.out
 
 ### React UI Dependencies and Build Artifacts ###
 # Directories within 'patient-readmission-ui/' that should be ignored
+=======
+﻿--- General and System Files ---
+
+.DS_Store
+.env
+
+--- Python Environment & Artifacts ---
+
+venv/
+pycache/
+*.pyc
+model.joblib
+
+--- IDE Files ---
+
+.vscode/
+
+--- Data and Output Artifacts ---
+
+We track files inside 'data/', but ignore the generated 'processed/' output folder.
+
+data/processed/
+
+--- React UI Dependencies and Build Artifacts ---
+
+>>>>>>> cea5997 (CHORE: Optimized .gitignore rules)
 patient-readmission-ui/node_modules/
 patient-readmission-ui/build/
